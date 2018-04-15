@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+.contents .section.sec1{
+    height: auto;
+    padding: 65px 0 266px;
+    background: url('../img/bg_sectionSec1.png') center center no-repeat;
+    position: relative;
+    z-index: 9;
+    
+}
+.contents .section.sec1>.sec1Main {
+    background : #ff00;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #298adb;
+}
+.contents .section.sec1>.sec1Cont {
+    background : #0ff0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    line-height: 45px;
+    color: #333;
+}
+.contents .section.sec1>.sec1SubCont {
+    text-align: center;
+    background: #ccc0;
+}
+.contents .section.sec1>.sec1SubCont>ul {
+    margin-top : 50px;
+}
+.contents .section.sec1>.sec1SubCont>ul>li {
+    display: inline-block;
+    border: 2px solid;
+    box-sizing: border-box;
+    width : 33%;
+}
+
+/*======= secContCan ========*/
+.contents .section.sec1>.sec1SubCont>ul>li.subContCan {
+    width : 300px;
+    height : 300px;
+    margin: 0 auto;
+    border : 15px solid #f6f6f6;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.contents .sec1SubCont .sec1Sub {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    line-height: 24px;
+    color: #298adb;
+    margin-top: 10px;
+}
+
+
+/*======= secContKilo ========*/
+.contents .section.sec1>.sec1SubCont>ul>li.subContKilo {
+    width : 300px;
+    height : 300px;
+    margin: 0 auto;
+    border : 15px solid #f6f6f6;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+/*======= secContEarth ========*/
+.contents .section.sec1>.sec1SubCont>ul>li.subContEarth {
+    width : 300px;
+    height : 300px;
+    margin: 0 auto;
+    border : 15px solid #f6f6f6;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+
+

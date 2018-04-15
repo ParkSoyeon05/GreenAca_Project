@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+/*======= .mainContent ========*/
+.mainContent {
+    width : 100%;
+    height : auto;
+    background : #ccc;
+    position: relative;
+    overflow: hidden;
+}
+.mainContent .gallery {
+    width : 100%;
+    height : 720px;
+}
+.mainContent .gallery>ul {
+    width : 500%;
+    position: absolute;
+}
+
+.mainContent .gallery>ul>li {
+    border: 1px solid #f00;
+    box-sizing: border-box;
+    height: 720px;
+    width : 20%;
+    float: left;
+    position: relative;
+    
+}
+
+/*======= .secLiMain0 ========*/
+.mainContent .gallery>ul>li>.secLiMain0 {
+    border : 2px solid #f00;
+    box-sizing: border-box;
+    width: auto;
+    height ; 185px;
+    position: absolute;
+    top: 235px;
+    left: 2%;
+}
+
+.mainContent .gallery>ul>li>.secLiMain0>.main0Top {
+    font-size: 80px;
+    font-weight: 900;
+    color : #fff;
+    letter-spacing: -0.5px;
+    padding-bottom: 45px;
+}
+.mainContent .gallery>ul>li>.secLiMain0>.libox {
+    width : 80px;
+    height : 80px;
+    border: 8px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    float: left;
+}
+.mainContent .gallery>ul>li>.secLiMain0>.main0Cont {
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    color: #fff;
+    position: absolute;
+    left : 30px;
+    bottom : 20px;
+    
+}
+
+
+/*======= .secLiMain1 ========*/
+.mainContent .gallery>ul>li>.secLiMain1 {
+    border : 2px solid #f00;
+    box-sizing: border-box;
+    width: auto;
+    height ; 185px;
+    position: absolute;
+    top: 235px;
+    left: 2%;
+    color : #fff;
+    letter-spacing: -0.5px;
+}
+.mainContent .gallery>ul>li>.secLiMain1>.main1Top {
+    font-size: 80px;
+    font-weight: 900;
+}
+.mainContent .gallery>ul>li>.secLiMain1>.main1Cont {
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 45px;
+}
+.mainContent .gallery>ul>li>.secLiMain1>.main1Sub {
+    font-size: 28px;
+    font-weight: 300;
+}
+.mainContent .gallery>ul>li>.secLiMain1>.main1Sub>a {
+/*    height: 60px;*/
+    color: #fff;
+    background: #f000;
+    position: absolute;
+    bottom : 20px;
+    left: 0;
+    padding-left: 70px;
+}
+
+
+
+/*======= .secLiMain2 ========*/
+.mainContent .gallery>ul>li>.secLiMain2 {
+    border : 1px solid #f00;
+    box-sizing: border-box;
+    position: absolute;
+    top : 280px;
+    left: 2%;
+    width: 500px;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.mainContent .gallery>ul>li>.secLiMain2>a {
+    color: #fff;
+    background : #0f00;
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+    padding-left: 70px;
+}
+
+
+/*======= .secLiMain3 ========*/
+.mainContent .gallery>ul>li>.secLiMain3 {
+    border : 1px solid #f00;
+    box-sizing: border-box;
+    position: absolute;
+    top : 280px;
+    left: 2%;
+    width: 500px;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.mainContent .gallery>ul>li>.secLiMain3>a {
+    color: #fff;
+    background : #0f00;
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+    padding-left: 70px;
+}
+
+
+/*======= .secLiMain4 ========*/
+.mainContent .gallery>ul>li>.secLiMain4 {
+    border : 2px solid #f00;
+    box-sizing: border-box;
+    width: auto;
+    height ; 185px;
+    position: absolute;
+    top: 235px;
+    left: 2%;
+    color : #fff;
+    letter-spacing: -0.5px;
+}
+.mainContent .gallery>ul>li>.secLiMain4>.main4Top {
+    font-size: 80px;
+    font-weight: 900;
+}
+.mainContent .gallery>ul>li>.secLiMain4>.main4Cont {
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 45px;
+}
+.mainContent .gallery>ul>li>.secLiMain4>.main4Sub {
+    font-size: 28px;
+    font-weight: 300;
+}
+.mainContent .gallery>ul>li>.secLiMain4>.main4Sub>a {
+/*    height: 60px;*/
+    color: #fff;
+    background: #f000;
+    position: absolute;
+    bottom : 20px;
+    left: 0;
+    padding-left: 70px;
+}
+
+
+/*========= .arrow ==========*/
+.mainContent .arrow {
+    width : 20px;
+    height : 20px;
+    position: absolute;
+    top : 530px;
+    border : 1px solid #f00;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+.mainContent .arrow.arrowLeft {
+    left: 75%;
+    background-image : url('../img/slide_arrow.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    transform: rotate(180deg);
+}
+.mainContent .arrow.arrowRight {
+    right : 22%;
+    background-image : url('../img/slide_arrow.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
